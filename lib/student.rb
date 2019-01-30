@@ -13,7 +13,7 @@ class Student < User
   end
   
   def knowledge
-    learn(string)
+    @knowledge
   end
 
 end
