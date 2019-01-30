@@ -23,4 +23,6 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Smith"
 
-jim.learn("Hello, Jim")
+jim.learn(some_knowledge)
+
+uts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
