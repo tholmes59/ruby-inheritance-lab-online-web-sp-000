@@ -25,4 +25,4 @@ jim.last_name = "Smith"
 
 jim.learn(some_knowledge)
 
-puts "Jim just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
+puts "Jim just learned this important knowledge: '#{jim.knowledge.last}' from Avi"
